@@ -3,20 +3,33 @@
 <head>
   <title>WEB1 - html</title>
   <meta charset="utf-8">
+  <link rel="stylesheet" href="style.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script
+   src = "color.js"></script>
 </head>
-
 <body>
   <h1><a href="index.html">WEB</a></h1>
-  <ol>
-    <li><a href="1.html">html</a></li>
-    <li><a href="2.html">css</a></li>
-    <li><a href="3.html">javaScript</a></li>
-  </ol>
-  <h2>HTML</h2>
-  <p><a href="https://www.w3.org/TR/html52/" target="_blank" title="html5 specification">Hypertext Markup Language (HTML)</a> is the stanard markup language for <strong>creating <u>web</u> pages</strong> and web applications.</p>
-  <img src="image_coding.jpg" width="30%">
-  <p style="margin-top:100px">HTML is nice and convinient.</p>
+  <input type="button" value="night" onclick="
+  nightDayhandler(this);
+  ">
+  <div id="grid">
+    <ol>
+      <li><a href="1.html">html</a></li>
+      <li><a href="2.html">css</a></li>
+      <li><a href="3.html">javaScript</a></li>
+    </ol>
+    <div id="article">
+      <h2>HTML</h2>
+      <p><a href="https://www.w3.org/TR/html52/" target="_blank" title="html5 specification">Hypertext Markup Language (HTML)</a> is the stanard markup language for <strong>creating <u>web</u> pages</strong> and web applications.</p>
+      <img src="image_coding.jpg" width="30%">
+      <p style="margin-top:100px">HTML is nice and convinient.</p>
 
+      <p>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/tZooW6PritE" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+      </p>
+    </div>
+  </div>
   <table>
     <tr>
       <td>head</td>
